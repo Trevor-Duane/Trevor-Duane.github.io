@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<head>
+	<title>RFID based bus ticketing</title>
+	<style>
+	.header{
+		width: 100%;
+		height: 60%;
+		margin: auto;
+		background-color: #202020;
+
+	}
+	#navigation h2{
+		float: left;
+		font-size: 25px;
+		color: #999999;
+		margin-left: 5cm;
+		padding: 0;
+
+	}
+		ul {	
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #202020;
+
+    }
+
+       li {
+    float: right;
+    }
+
+       li a {
+     margin-right: 5px;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  	}
+
+/* Change the link color to #111 (black) on hover */
+       li a:hover {
+    background-color: #111;
+    }
+    .active {
+    background-color: #202020;
+    color: #999999;
+   }
+   .content{
+   	height: 40%;
+   	width: 60%;
+   	margin: auto;
+   }
+   h4{
+   	font-weight: bold;
+   	font-family: sans-serif;
+   	font-size: 20px;
+   }
+   .content p{
+   	font-size: 18px;
+   }
+   .footer{
+   	background-color: #202020;
+
+   }
+   .footer p{
+   	color: #999999;
+   	text-align: center;
+   }
+   #line{
+    color: #999999;
+   }
+
+	</style>
+</head>
+
+<body>
+	<div class="header">
+		
+		<ul id="navigation">
+			<h2 id="name">Rfid Bus Ticketing</h2>
+			<li><a href="rfid.html" class="active">RFID</a></li>
+			<li><a href="#">The team</a></li>
+			<li><a href="how.html">How it works</a></li>
+			<li><a href="index.html">Overview</a></li>
+		</ul>
+	</div>
+	<div class="content">
+		<h4>What is RFID Technology and How does it work</h4>
+    <hr id="line">
+    <p>Radio-Frequency Identification is the use of radio waves to read, capture, and interact with information stored on a tag. Tags are usually attached to objects, and can be read from several feet away. Furthermore, the tag doesn’t always have to be in the direct line-of-sight to initiate interaction</p>
+    <p>An RFID tag is an easy way to assign a unique identity to an object. Additionally, they do not need an internal power source, while a tag can be as small as a grain of black pepper. Meaning they are easily embedded almost anywhere — hence their popularity.</p>
+    <h4>How does it work</h4>
+    <hr id="line">
+    <p>A basic RFID system comprises two parts: the tag, and the reader.</p>
+    <h3>Tag</h3>
+    <p>The RFID tag has an embedded transmitter and receiver. The actual RFID component contained in a tag has two parts: an integrated circuit for storing and processing information, and an antenna to receive and transmit a signal. The RFID tag has non-volatile memory storage, and can included either fixed or programmable logic for processing transmission and sensor data.</p>
+    <img src="tag.jpg"><p>Tags can be passive, active, or battery-assistive passive.</p>
+    <h3>Reader</h3>
+    <p>The RFID reader features a two-way radio transmitted-reciever (transciever), sometimes referred to as an interrogator. The transceiver transmits an encoded radio signal to interogate the tag. The radio signal essentially wakes or activates the tag. In turn, the tag transponder converts the radio signal into usable power, and responds to the reader. The reader can come in many forms.
+    </p>
+    <img src="reader.jpeg">
+		
+	</div>
+	<div class="footer">
+		<p>Rfid based bus ticketing</p>
+	</div>
+</body>
+</html>
