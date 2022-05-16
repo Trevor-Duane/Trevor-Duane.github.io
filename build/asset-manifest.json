@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/build/static/css/main.8da87e39.css",
+    "main.js": "/build/static/js/main.afcd2fa3.js",
+    "static/media/banner.jpg": "/build/static/media/banner.74bdbb1e6f5fe017f425.jpg",
+    "static/media/hero1.jpg": "/build/static/media/hero1.d2edb689e9af58a8a52a.jpg",
+    "static/media/partner.jpg": "/build/static/media/partner.ec0fb4ee6c73442c248e.jpg",
+    "static/media/tenda.png": "/build/static/media/tenda.796f01b0291e0acc8791.png",
+    "static/media/p2.png": "/build/static/media/p2.24bc250c4e1e882059e0.png",
+    "static/media/p1.PNG": "/build/static/media/p1.3c82f95327d204370bc9.PNG",
+    "index.html": "/build/index.html",
+    "main.8da87e39.css.map": "/build/static/css/main.8da87e39.css.map",
+    "main.afcd2fa3.js.map": "/build/static/js/main.afcd2fa3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8da87e39.css",
+    "static/js/main.afcd2fa3.js"
+  ]
+}
